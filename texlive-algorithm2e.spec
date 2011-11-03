@@ -1,3 +1,9 @@
+# revision 16417
+# category Package
+# catalog-ctan /macros/latex/contrib/algorithm2e
+# catalog-date 2009-12-15 18:51:03 +0100
+# catalog-license lppl
+# catalog-version 4.01
 Name:		texlive-algorithm2e
 Version:	4.01
 Release:	1
@@ -58,6 +64,7 @@ reused in the text or in other algorithms.
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exfor.tex
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exrepeat.tex
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exswitch.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +75,5 @@ reused in the text or in other algorithms.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
