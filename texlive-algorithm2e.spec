@@ -37,7 +37,6 @@ reused in the text or in other algorithms.
 	%{_sbindir}/texlive.post
     fi
 
-
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/algorithm2e/algorithm2e.sty
