@@ -65,3 +65,18 @@ reused in the text or in other algorithms.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.01-2
++ Revision: 749158
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.01-1
++ Revision: 717811
+- texlive-algorithm2e
+- texlive-algorithm2e
+- texlive-algorithm2e
+- texlive-algorithm2e
+- texlive-algorithm2e
+
