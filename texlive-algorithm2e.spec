@@ -1,12 +1,12 @@
-# revision 16417
+# revision 28749
 # category Package
 # catalog-ctan /macros/latex/contrib/algorithm2e
-# catalog-date 2009-12-15 18:51:03 +0100
+# catalog-date 2013-01-06 21:16:44 +0100
 # catalog-license lppl
-# catalog-version 4.01
+# catalog-version 5.0
 Name:		texlive-algorithm2e
-Version:	4.01
-Release:	2
+Version:	5.0
+Release:	1
 Summary:	Floating algorithm environment with algorithmic keywords
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e
@@ -52,7 +52,9 @@ reused in the text or in other algorithms.
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex07.tex
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exAlgoDisjdecomp.tex
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exIR.tex
+%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exProg.tex
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exfor.tex
+%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exgeneric.tex
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exrepeat.tex
 %doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exswitch.tex
 
@@ -65,18 +67,3 @@ reused in the text or in other algorithms.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.01-2
-+ Revision: 749158
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.01-1
-+ Revision: 717811
-- texlive-algorithm2e
-- texlive-algorithm2e
-- texlive-algorithm2e
-- texlive-algorithm2e
-- texlive-algorithm2e
-
