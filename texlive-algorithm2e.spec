@@ -6,7 +6,7 @@
 # catalog-version 5.0
 Name:		texlive-algorithm2e
 Version:	5.0
-Release:	6
+Release:	7
 Summary:	Floating algorithm environment with algorithmic keywords
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e
