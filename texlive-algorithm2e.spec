@@ -1,12 +1,6 @@
-# revision 28749
-# category Package
-# catalog-ctan /macros/latex/contrib/algorithm2e
-# catalog-date 2013-01-06 21:16:44 +0100
-# catalog-license lppl
-# catalog-version 5.0
 Name:		texlive-algorithm2e
-Version:	5.0
-Release:	9
+Version:	5.2
+Release:	1
 Summary:	Floating algorithm environment with algorithmic keywords
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e
@@ -39,24 +33,8 @@ reused in the text or in other algorithms.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/algorithm2e/algorithm2e.sty
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/README
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e.pdf
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex01.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex02.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex03.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex04.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex05.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex06.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_ex07.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exAlgoDisjdecomp.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exIR.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exProg.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exfor.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exgeneric.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exrepeat.tex
-%doc %{_texmfdistdir}/doc/latex/algorithm2e/algorithm2e_exswitch.tex
+%{_texmfdistdir}/tex/latex/algorithm2e
+%doc %{_texmfdistdir}/doc/latex/algorithm2e
 
 #-----------------------------------------------------------------------
 %prep
