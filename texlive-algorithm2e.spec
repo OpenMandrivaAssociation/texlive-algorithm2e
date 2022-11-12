@@ -1,12 +1,12 @@
 Name:		texlive-algorithm2e
-Version:	5.2
-Release:	3
+Version:	44846
+Release:	1
 Summary:	Floating algorithm environment with algorithmic keywords
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithm2e.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithm2e.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithm2e.r44846.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithm2e.doc.r44846.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +24,12 @@ Procedure or Function; the name of these functions may be
 reused in the text or in other algorithms.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -38,7 +38,7 @@ reused in the text or in other algorithms.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
