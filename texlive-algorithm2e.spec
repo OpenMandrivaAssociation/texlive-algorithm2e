@@ -3,7 +3,7 @@ Version:	44846
 Release:	2
 Summary:	Floating algorithm environment with algorithmic keywords
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithm2e.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithm2e.doc.r%{version}.tar.xz
